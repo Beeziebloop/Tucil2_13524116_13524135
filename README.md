@@ -1,6 +1,6 @@
 # Tucil2 IF2211 - Voxelization Objek 3D menggunakan Octree
 
-##Deskripsi Program
+## Deskripsi Program
 Program ini mengkonversi model 3D dalam format `.obj` menjadi model voxelized (tersusun dari kubus-kubus kecil seperti Minecraft) menggunakan struktur data Octree dengan algoritma Divide and Conquer. Program juga memanfaatkan concurrency (goroutines) untuk mempercepat proses konversi.
 
 ## Requirements
@@ -99,12 +99,12 @@ Program menghasilkan:
   - Path file output
 
 ## Performa
-Program menggunakan goroutines untuk memparalelkan proses build octree.
+Program menggunakan goroutines untuk memparalelkan proses build octree.<br>
 Contoh perbandingan waktu pada `pumpkin.obj` depth 7:
 - Tanpa concurrency  6.97 detik 
-- Dengan concurrency  3.04 detik 
+- Dengan concurrency  3.04 detik <br>
 Speedup = ~2.3x 
 
 ## Author
-Eliana Natalie Widjojo 13524116
+Eliana Natalie Widjojo 13524116<br>
 Varistha Devi 13524135
